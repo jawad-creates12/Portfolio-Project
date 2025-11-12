@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jawad Ashraf | Portfolio</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="./output.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a2e0f6b6f8.js" crossorigin="anonymous"></script>
+  <style>
+    @keyframes fadeInUp {
+      from {opacity: 0; transform: translateY(40px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+    .fade-up {
+      animation: fadeInUp 1.2s ease forwards;
+    }
+  </style>
+</head>
+<body class="bg-black text-white font-sans">
+  <nav class="bg-pink-500 text-black py-4 shadow-lg">
+    <div class="container mx-auto flex justify-between items-center px-4">
+      <h1 class="text-2xl font-bold tracking-wide">Jawad Ashraf</h1>
+      <ul class="flex space-x-6 font-medium">
+        <li><a href="mystory.html" class="hover:text-gray-900 transition">My Story</a></li>
+         <li><a href="projects.html" class="hover:text-gray-900 ">Projects</a></li>
+        <li><a href="#skills" class="hover:text-gray-900 transition">Skills</a></li>
+        <li><a href="#expertise" class="hover:text-gray-900 transition">Expertise</a></li>
+        <li><a href="#contact" class="hover:text-gray-900 ">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <section class="relative bg-black h-[90vh] flex flex-col justify-center items-center text-center overflow-hidden">
+    <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1500&q=80"
+         alt="banner"
+         class="absolute inset-0 w-full h-full object-cover opacity-20" />
+    <div class="relative z-10 fade-up">
+      <h2 class="text-5xl md:text-6xl font-extrabold mb-4">Hi, I'm <span class="text-pink-500">Jawad Ashraf</span></h2>
+      <p class="text-lg md:text-xl text-gray-300 max-w-xl mx-auto mb-6">professional web developer , Video Editor & Freelancer — creating elegant digital experiences and solving real-world problems.</p>
+      <div class="flex justify-center gap-6">
+        <a href="#contact" class="bg-pink-500 hover:bg-pink-600 text-black px-6 py-3 rounded-xl font-semibold transition">Hire Me</a>
+        <a href="/Jawad_cv.pdf.pdf" download="Jawad_Ashraf_CV.pdf"  class="border-2 border-pink-500 text-pink-500 px-6 py-3 rounded-xl font-semibold hover:bg-pink-500 hover:text-black  animate-bounce shadow-lg transition-all duration-300">Download CV</a>
+      </div>
+    </div>
+  </section>
+  <section id="story" class="py-16 bg-gray-900 text-center">
+    <h3 class="text-3xl font-bold text-pink-500 mb-6">My Story</h3>
+    <p class="max-w-3xl mx-auto text-gray-300 leading-relaxed">
+      I'm Jawad Ashraf, a passionate web Developer and creative professional dedicated to transforming ideas into reality.
+      With years of experience in software development and video editing, I strive to build elegant, efficient, and visually striking digital solutions.
+    </p>
+  </section>
+  <section id="skills" class="py-16 bg-black text-center">
+    <h3 class="text-3xl font-bold text-pink-500 mb-6">Skills</h3>
+    <div class="flex flex-wrap justify-center gap-6 text-gray-300">
+      <div class="bg-gray-800 p-6 rounded-xl shadow-md w-60 hover:scale-105 transition cursor-pointer">
+        <h4 class="font-bold text-xl mb-2">HTML & CSS</h4>
+        <p>Clean, responsive, and accessible web design.</p>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-xl shadow-md w-60 hover:scale-105 transition">
+        <h4 class="font-bold text-xl mb-2">JavaScript</h4>
+        <p>Dynamic and interactive web development.</p>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-xl shadow-md w-60 hover:scale-105 transition">
+        <h4 class="font-bold text-xl mb-2">Video Editing</h4>
+        <p>Professional storytelling with visuals.</p>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-xl shadow-md w-60 hover:scale-105 transition">
+        <h4 class="font-bold text-xl mb-2">Python</h4>
+        <p>Automation and problem-solving through code.</p>
+      </div>
+    </div>
+  </section>
+  <section id="expertise" class="py-16 bg-gray-900 text-center">
+    <h3 class="text-3xl font-bold text-pink-500 mb-6">Expertise</h3>
+    <p class="max-w-3xl mx-auto text-gray-300 leading-relaxed">
+      My expertise spans web development, frontend design, backend logic, and visual content creation.
+      I blend creativity and logic to deliver high-quality work across multiple domains.
+    </p>
+  </section>
+  <section id="contact" class="py-16 bg-black text-center">
+    <h3 class="text-3xl font-bold text-pink-500 mb-6">Contact Me</h3>
+    <p class="text-gray-300 mb-8">Let's connect and create something amazing together!</p>
+    <a href="Email.html"
+       class="bg-pink-500 hover:bg-pink-600 text-black px-6 py-3 rounded-xl font-semibold transition">
+      Send Email
+    </a>
+  </section>
+  <footer class="bg-black border-t border-pink-500 py-8 text-center absolute bottom-0 right-0 p-2 rounded-tl w-full ">
+    <div class="flex justify-center space-x-6 mb-4">
+      <a href="https://github.com/jawad-creates12" class="text-gray-400 hover:text-pink-500 transition "><i class="fab fa-github fa-lg"></i></a>
+      <a href="https://www.instagram.com/jawadashraf904/" class="text-gray-400 hover:text-pink-500 transition"><i class="fab fa-instagram fa-lg"></i></a>
+      <a href="https/www.facebook.com/JawadAhraf" class="text-gray-400 hover:text-pink-500 transition"><i class="fab fa-facebook fa-lg"></i></a>
+      <a href="https://x.com/JawadAshra89775" class="text-gray-400 hover:text-pink-500 transition"><i class="fa-brands fa-square-x-twitter"></i></a>
+    </div>
+    <p class="text-gray-500 text-sm">© 2025 Jawad Ashraf. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
